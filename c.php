@@ -15,5 +15,5 @@ $result = mysqli_query($con,$sql);
 $sql="INSERT INTO linkData (linkNum,linkUrl) VALUES (".$num2.",\"".$arg."\")";
 $result = mysqli_query($con,$sql);
 mysqli_close($con);
-echo "<p>生成成功！地址：xxx.com/".$num2."</p>";
+echo "<p>生成成功！地址：xxx.com/j.php?c=".$num2."</p>";
 ?>
