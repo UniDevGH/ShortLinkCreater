@@ -22,7 +22,7 @@
                     document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
                 }
             }
-            xmlhttp.open("GET", (("mysql.php?url=" + document.getElementById('txtBox').value).replace("https://", "")).replace("http://", ""), true);
+            xmlhttp.open("GET", (("c.php?url=" + document.getElementById('txtBox').value).replace("https://", "")).replace("http://", ""), true);
             xmlhttp.send();
         }
     </script>
